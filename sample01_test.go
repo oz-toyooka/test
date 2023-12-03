@@ -4,6 +4,7 @@ import (
   "testing"
 )
 
+
 func TestHelloWorld(t *testing.T) {
   actual := HelloWorld("hoge")
   expected := "hello world, hoge"
